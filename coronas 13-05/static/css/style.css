@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.active {
+    display: block;
+}
+
+.not-active {
+    display: none;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-shadow: rgb(104, 61, 121) 1px 0 10px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1
+}
+
+main {
+    font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+    text-align: center;
+  padding: 4%;
+  font-weight: 700;
+  background:url(../img/covid_19_virus-4749510.jpg)
+  ;
+  width: 100%;
+  height:200px;
+  color: rgb(79, 27, 92);
+  line-height: 100px;
+  background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    margin: 2%;
+}
+
+p {
+    padding: 2%;
+    text-align: center;
+
+}
+
+form {
+    display: flex;
+    width: 450px;
+    height: auto;
+    border: 1px solid rgb(104, 61, 121);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 50px;
+    position: relative;
+    left: 34rem;
+    top:30vh;
+    background: white
+}
+
+
+#btn {
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    background: white;
+    border: 1px solid rgb(104, 61, 121)
+}
+
+img{width: 250px;
+height: 300px;
+display: flex;
+flex-direction: row;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+li{
+    margin: 3%;
+    list-style: none;
+}
+#geste{
+    width: 100%;
+    height: auto;
+}
+#geste img{
+    width: 80%;
+    height:auto;
+    margin: auto
+    ;
+}
+main#form{
+ background: url(../img/corona_750_2.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: 100%;
+
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px
+}
+label{}

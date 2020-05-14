@@ -1,0 +1,13 @@
+<main>
+    <h2>Corona essentials</h2>
+    
+    <ul>{{#each produits}}
+    <li>
+          <img src="/img/{{this.image}}" alt="">
+          {{this.name}}
+        {{this.price}}
+        {{!-- {{this.stock}} --}}
+      
+    </li>
+    {{/each}}
+</ul></main>
